@@ -30,6 +30,18 @@ The goal is to develop practical skills in Windows Server administration, Active
 - Created a Group Policy Object to enforce a 5-minute inactivity lock.
 - Installed Windows 11 Pro as a virtual client.
 
+## Verified Lab Results — 23 October 2026
+
+- Successfully joined `CyberLab-PC01` to the `cyberlab.test` domain.
+- Configured client networking and resolved DNS connectivity issues.
+- Confirmed domain authentication using `CYBERLAB\jsmith`.
+- Successfully tested the required domain-user password change.
+- Verified the computer object in the `Lab-Computers` OU.
+- Confirmed `CyberLab - Auto Lock 5 Minutes` using `gpresult /r /scope computer`.
+- Verified automatic Windows screen locking after five minutes of inactivity.
+
+**Milestone: Active Directory domain join and Group Policy testing completed successfully.**
+
 ## Work in Progress
 
 - Configure communication between the Windows Server and Windows 11 virtual machines.
