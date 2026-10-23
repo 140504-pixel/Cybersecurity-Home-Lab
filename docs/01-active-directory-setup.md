@@ -35,7 +35,7 @@ Created the following OUs using Active Directory Users and Computers:
 - Created the GPO `CyberLab - Auto Lock 5 Minutes`.
 - Configured `Interactive logon: Machine inactivity limit` to `300` seconds.
 - Linked the GPO to the `Lab-Computers` OU.
-- Client-side application and enforcement testing are pending.
+- Client-side verification completed successfully. The Windows 11 client joined the cyberlab.test domain, authenticated using the jsmith domain account, and successfully applied the CyberLab - Auto Lock 5 Minutes GPO. The policy was verified using gpresult, and the computer automatically locked after five minutes of inactivity.
 
 Verification and Next Steps
 - [x] Domain controller deployed
@@ -43,9 +43,9 @@ Verification and Next Steps
 - [x] Organizational Units created
 - [x] User and security group configured
 - [x] Group Policy created and linked
-- [ ] Join Windows 11 client to domain
-- [ ] Verify domain user authentication
-- [ ] Verify Group Policy application
+- [x] Join Windows 11 client to domain
+- [x] Verify domain user authentication
+- [x] Verify Group Policy application
 
 Lessons Learned
 This lab provides practical experience with Active Directory administration, centralized account management, security groups, and Group Policy configuration. Further testing will verify client connectivity and policy enforcement.
