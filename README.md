@@ -47,12 +47,14 @@ The goal is to develop practical skills in Windows Server administration, Active
 - [Lab 01 — Active Directory Setup](docs/01-active-directory-setup.md)
 - [Lab 02 — DNS Troubleshooting & Hardening](02-dns-troubleshooting.md)
 
+
 ## Next Lab Activities
 
 - Configure and test Active Directory account lockout policies.
 - Enable and investigate Windows security auditing.
 - Analyze successful and failed authentication events using Event Viewer.
 - Practice Active Directory security hardening and least-privilege administration.
+
 ## Skills Developed
 
 - Windows Server Administration
@@ -62,6 +64,10 @@ The goal is to develop practical skills in Windows Server administration, Active
 - Virtualization
 - Windows Networking
 - IT Troubleshooting
+- DNS Configuration and Troubleshooting
+- Kerberos Authentication
+- Active Directory Security Diagnostics
+- PowerShell Administration
 
 ## Project Status
 
