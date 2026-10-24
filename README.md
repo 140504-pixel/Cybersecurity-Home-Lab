@@ -42,13 +42,17 @@ The goal is to develop practical skills in Windows Server administration, Active
 
 **Milestone: Active Directory domain join and Group Policy testing completed successfully.**
 
-## Work in Progress
+## Completed Labs
 
-- Configure communication between the Windows Server and Windows 11 virtual machines.
-- Join Windows 11 Pro to the Active Directory domain.
-- Test domain authentication and Group Policy application.
-- Document configuration steps and verification results.
+- [Lab 01 — Active Directory Setup](docs/01-active-directory-setup.md)
+- [Lab 02 — DNS Troubleshooting & Hardening](02-dns-troubleshooting.md)
 
+## Next Lab Activities
+
+- Configure and test Active Directory account lockout policies.
+- Enable and investigate Windows security auditing.
+- Analyze successful and failed authentication events using Event Viewer.
+- Practice Active Directory security hardening and least-privilege administration.
 ## Skills Developed
 
 - Windows Server Administration
